@@ -1,0 +1,56 @@
+
+body{
+  font-family: monospace;
+  font-size: 12px;
+  color: rgb(7, 7, 224);
+  background-color: rgb(203, 211, 218);
+}
+
+#marker {
+  fill: rgb(78, 104, 189);
+  opacity: .5;
+}
+
+/* this is the text lables for x and y  */
+.active {
+  font-weight: 9;
+  font-size: 12px;
+  fill: rgb(6, 11, 14);
+  transition: fill 0.5s ease-out;
+  text-anchor: middle;
+}
+
+/* format of text from when you hover over a circle */
+.tooltip {
+  position: absolute;
+  text-align: center;
+  font-size: 9px;
+  font-weight: 500;
+  color: #c0230f;
+}
+
+html {
+  position: relative;
+  min-height: 100%;
+}
+
+ /* padding bottom by footer height */
+body {
+  padding-bottom: 50px;
+}
+
+#footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%; /* Set the fixed height of the footer here */
+  height: 10px;
+  padding-top: 10px;
+  padding-bottom: 20px;
+  text-align: center;
+  background-color: #c48a8a;
+}
+
+#footer p {
+  margin: 0;
+  font-size: 12px;
+}
